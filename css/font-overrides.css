@@ -8,3 +8,13 @@
   .project-card p:not(.project-type) { font-size: 15px; }
   .about-copy > p { font-size: 18px; }
 }
+.project-result { color: var(--muted); font: 13px 'DM Mono', monospace; margin: 4px 0 20px; }
+.project-result b { color: var(--accent); font-size: 20px; margin-right: 3px; }
+.timeline { margin-left: 108px; border-left: 1px solid var(--line); }
+.timeline > div { position: relative; padding: 0 0 34px 30px; }
+.timeline > div:last-child { padding-bottom: 0; }
+.timeline > div:before { content: ''; position: absolute; left: -4px; top: 6px; width: 7px; height: 7px; background: var(--accent); border-radius: 50%; }
+.timeline span { font: 11px 'DM Mono', monospace; color: var(--accent); }
+.timeline h4 { font-size: 20px; margin: 8px 0; }
+.timeline p { max-width: 760px; color: var(--muted); font-size: 15px; margin: 0; }
+@media (max-width: 700px) { .timeline { margin-left: 0; } .timeline h4 { font-size: 18px; } }
