@@ -1,0 +1,10 @@
+/* Larger reading size for portfolio visitors */
+.intro { max-width: 620px; font-size: 19px; line-height: 1.8; }
+.skill-grid p, .credential-list p { font-size: 15px; }
+.project-card p:not(.project-type) { font-size: 16px; line-height: 1.8; }
+.credential-list b { font-size: 15px; }
+@media (max-width: 700px) {
+  .intro { font-size: 17px; }
+  .project-card p:not(.project-type) { font-size: 15px; }
+  .about-copy > p { font-size: 18px; }
+}

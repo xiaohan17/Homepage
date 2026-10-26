@@ -1,154 +1,58 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Han Li | Remote Sensing & AI</title>
-<link rel="icon" href="./assets/icons/fbg.jpg" type="image/gif">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Han Li — Remote Sensing and AI Engineer portfolio.">
+  <title>Han Li | Remote Sensing & AI Engineer</title>
+  <link rel="icon" href="./assets/icons/fbg.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-overrides.css">
 </head>
-
 <body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <main class="container">
+    <nav class="nav"><span class="mark">HL<span>.</span></span><span class="nav-label">Portfolio / 2025—2026</span></nav>
 
-<canvas id="bg"></canvas>
-
-<div class="container">
-
-    <div class="top-section">
-
-    <!-- left -->
-    <div class="info">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">REMOTE SENSING · COMPUTER VISION · GIS</p>
         <h1>Han Li</h1>
-        <p>Remote Sensing · Deep Learning · Urban Analysis</p>
-
-        <div class="links">
-            <a href="https://github.com/xiaohan17" target="_blank">
-                GitHub
-            </a>
-
-            <a class="btn" href="#" onclick="openEmail()">
-                Email Me
-            </a>
-
-            <a href="https://orcid.org/my-orcid?orcid=0009-0007-8634-1891" target="_blank">
-                ORCID
-            </a>
+        <h2>Remote Sensing<br><em>&amp; AI Engineer</em></h2>
+        <p class="intro">I build practical computer vision and geospatial intelligence solutions—from remote sensing interpretation to real-time video analysis and model deployment.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">View Projects <span>↘</span></a>
+          <a class="button" href="#contact">Get in touch <span>↗</span></a>
         </div>
-    </div>
+      </div>
+      <div class="hero-side">
+        <div class="photo-frame"><img src="assets/images/me.jpg" alt="Portrait of Han Li"></div>
+        <p class="availability"><span></span> Open to opportunities<br><small>Remote Sensing · Computer Vision · Geospatial AI</small></p>
+      </div>
+    </section>
 
-    <!-- right -->
-    <div class="profile">
-        <img src="assets/images/me.jpg">
-    </div>
+    <section class="skills section-line">
+      <div class="section-heading"><span>01</span><h3>Technical toolkit</h3></div>
+      <div class="skill-grid">
+        <div><b>AI &amp; Vision</b><p>PyTorch · YOLO · ByteTrack<br>OpenCV · Semantic Segmentation</p></div>
+        <div><b>Engineering</b><p>Python · Docker · Kubernetes<br>RTSP · Model Deployment</p></div>
+        <div><b>Geospatial</b><p>Remote Sensing · GIS<br>Spatiotemporal Analysis</p></div>
+      </div>
+    </section>
 
-    </div>
+    <section id="projects" class="projects section-line">
+      <div class="section-heading"><span>02</span><h3>Selected projects</h3><p>Engineering work with measurable, real-world applications.</p></div>
+      <article class="project-card featured"><div class="project-number">01</div><div><p class="project-type">COMPUTER VISION · 2025</p><h4>Industrial Vehicle<br>Video Analysis System</h4><p>Built a real-time monitoring system for industrial vehicles with accurate detection, dynamic tracking and operation-state analysis.</p><div class="tags"><span>YOLO</span><span>ByteTrack</span><span>RTSP</span><span>Docker</span></div><a class="text-link" href="https://github.com/xiaohan17/feed_truck_pipeline.git" target="_blank">View on GitHub ↗</a></div></article>
+      <article class="project-card"><div class="project-number">02</div><div><p class="project-type">GEOSPATIAL AI · 2024</p><h4>Geospatial Intelligence Engine</h4><p>Designed model deployment and land-use change analysis workflows for remote sensing interpretation and geospatial decision-making.</p><div class="tags"><span>Deep Learning</span><span>Docker / K8s</span><span>GIS</span></div></div></article>
+      <article class="project-card"><div class="project-number">03</div><div><p class="project-type">RESEARCH ENGINEERING · 2025</p><h4>Building Extraction Network</h4><p>Developed a high-precision building extraction method for high-resolution remote sensing imagery.</p><div class="tags"><span>PyTorch</span><span>Segmentation</span><span>Remote Sensing</span></div></div></article>
+    </section>
 
-  <h2>About</h2>
-  <div class="card">
-    I am currently a master’s candidate in Photogrammetry and Remote Sensing at Beijing University of Civil Engineering and Architecture under the supervision of my academic advisor Professor Guo Xian, and I am a member of the research group led by Professor Jiang Jie. I received my bachelor’s degree in Surveying and Mapping Engineering from Suzhou University. I once served in the academic committee and the ISPRS student chapter, and won many awards in national surveying and GIS competitions. My research focuses on remote sensing image interpretation, deep learning-based semantic segmentation and object tracking, including high-precision building extraction, spatiotemporal geo-analysis, and intelligent video monitoring, with solid experience in deep learning model development and deployment for remote sensing applications.
-  </div>
+    <section class="about section-line"><div class="section-heading"><span>03</span><h3>Profile</h3></div><div class="about-copy"><p>Master’s candidate in Photogrammetry and Remote Sensing at Beijing University of Civil Engineering and Architecture. My focus is turning deep learning research into reliable, deployable tools for visual understanding and spatial analysis.</p><div class="links"><a href="https://github.com/xiaohan17" target="_blank">GitHub ↗</a><a href="https://orcid.org/my-orcid?orcid=0009-0007-8634-1891" target="_blank">ORCID ↗</a></div></div></section>
 
-  <h2>Projects</h2>
+    <section class="credentials section-line"><div class="section-heading"><span>04</span><h3>Credentials</h3></div><div class="credential-list"><div><b>Selected publications</b><p>Building Extraction Network based on High-resolution Remote Sensing Image · 2025<br>Impervious Surface and Surface Runoff Analysis · Sustainability, 2023</p></div><div><b>Recognition</b><p>National Surveying Skills Competition · 2nd Prize<br>Esri Cup GIS Software Development Competition · 3rd Prize</p></div></div></section>
 
-    <div class="card">
-
-    <div class="card-title">
-        Intelligent Industrial Vehicle Video Analysis System(2025)
-    </div>
-
-    <div class="card-content">
-    As a core developer, built an AI-based real-time monitoring system for industrial vehicles. Adopted YOLO object detection algorithm and ByteTrack tracking algorithm to realize accurate detection, dynamic tracking and operation state analysis of industrial vehicles; constructed a stable RTSP/IP camera streaming pipeline, optimized the automatic reconnection mechanism of video streams to ensure the continuity of monitoring; completed the Docker containerization packaging and deployment of the system, improved the portability and stability of the project, and guaranteed the efficient operation of the system in industrial scenarios.
-    </div>
-
-    <div class="card-link">
-        <a href="https://github.com/xiaohan17/feed_truck_pipeline.git" target="_blank">
-        GitHub
-        </a>
-    </div>
-
-    </div>
-
-        <div class="card">
-
-    <div class="card-title">
-        Geospatial Intelligence Engine(2024)
-    </div>
-
-    <div class="card-content">
-    Participated in the key provincial R&D program "Geospatial Intelligence Engine", responsible for the engineering packaging and deployment of deep learning models; realized the containerized management of remote sensing deep learning models based on Docker/K8s technology, and built an extensible model deployment architecture; designed and implemented the land use change analysis workflow, integrated functions such as remote sensing image interpretation and geospatial analysis, and provided technical support for geospatial intelligent decision-making.
-    </div>
-
-    <!--<div class="card-link">
-        <a href="https://github.com/xiaohan17/feed_truck_pipeline.git" target="_blank">
-        GitHub
-        </a>
-    </div>-->
-
-    </div>
-
-  <h2>Academic Publication</h2>
-        <div class="card">
-        <b>
-            <b>Li, H., Guo, X., Jiang, J., & Gong, C. (2025). Building Extraction Network based on High-resolution Remote Sensing Image. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.</b><br>
-            <a href="https://isprs-archives.copernicus.org/articles/XLVIII-G-2025/905/2025/" target="_blank">
-                Paper
-            </a>
-        </b>
-        </div>
-
-        <div class="card">
-            <b>
-            <b>Fang, G.; Li, H.; Dong, J.; Teng, H.; Pablo, R.D.A., II; Zhu, Y. Extraction and Spatiotemporal Evolution Analysis of Impervious Surface and Surface Runoff in Main Urban Region of Hefei City, China. Sustainability 2023, 15, 10537.</b><br>
-            <a href="https://www.mdpi.com/2071-1050/15/13/10537" target="_blank">
-                Paper
-            </a>
-            </b>
-        </div>
-    <h2>Awards</h2>
-
-    <div class="card">
-    <div class="card-title">National College Students' Innovation and Entrepreneurship Intelligent Competition in Surveying and Mapping - Surveying Skills Competition</div>
-    <div class="card-content">
-        2nd Prize · 2022
-    </div>
-    </div>
-
-    <div class="card">
-    <div class="card-title">Esri Cup China University Students' GIS Software Development Competition - Remote Sensing Application Group Contest</div>
-    <div class="card-content">
-        3rd Prize · 2022
-    </div>
-    </div>
-
-    <div class="card">
-    <div class="card-title">Academic Paper Presentation Group of the GIS Application Skills Competition for University Students in Anhui Province</div>
-    <div class="card-content">
-        3rd Prize · 2022
-    </div>
-    </div>
-
-
-
-
-
-
-  <h2>Study Location</h2>
-
-    <div class="card">
-    <p><b>Beijing University of Civil Engineering and Architecture(Daxing Campus), Beijing, China</b></p>
-
-    <iframe 
-        src="https://www.google.com/maps?q=39.744260,116.282813&t=k&z=16&output=embed"
-        width="100%" 
-        height="300" 
-        style="border:0; border-radius:10px;"
-        loading="lazy">
-    </iframe>
-    </div>
-
-</div>
-
-<script src="js/main.js"></script>
-
+    <footer id="contact"><div><p class="eyebrow">LET'S BUILD SOMETHING USEFUL</p><h3>Have a project in mind?</h3></div><a class="button primary" href="#" onclick="openEmail(); return false;">Email me ↗</a><p class="footer-note">Beijing, China · Available for engineering and research opportunities</p></footer>
+  </main>
+  <script src="js/main.js"></script>
 </body>
 </html>
